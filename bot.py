@@ -206,4 +206,5 @@ def get_number(msg):
 
     bot.send_message(msg.chat.id, "❌ OTP not received")
 
-bot.infinity_polling()
+bot.remove_webhook()
+bot.infinity_polling(skip_pending=True, timeout=10, long_polling_timeout=5)
