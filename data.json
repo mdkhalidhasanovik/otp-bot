@@ -1,0 +1,16 @@
+{
+  "countries": {
+    "kenya": {
+      "name": "Kenya",
+      "ranges": {
+        "default": "kenya_range"
+      }
+    },
+    "germany": {
+      "name": "Germany",
+      "ranges": {
+        "default": "germany_range"
+      }
+    }
+  }
+}
